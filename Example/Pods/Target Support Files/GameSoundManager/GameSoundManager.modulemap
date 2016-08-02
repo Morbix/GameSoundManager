@@ -1,0 +1,6 @@
+framework module GameSoundManager {
+  umbrella header "GameSoundManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

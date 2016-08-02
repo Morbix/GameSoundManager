@@ -1,0 +1,22 @@
+{
+  "name": "GameSoundManager",
+  "version": "0.1.0",
+  "summary": "A short description of GameSoundManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GameSoundManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Henrique Morbin": "morbin_@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GameSoundManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GameSoundManager/Classes/**/*"
+}
