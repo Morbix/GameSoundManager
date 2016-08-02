@@ -163,6 +163,7 @@ private class Sound {
     func stop() {
         sounds.forEach {
             $0.stop()
+            $0.currentTime = 0
         }
     }
     
