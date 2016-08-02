@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GameSoundManager: ac0ba790ec0555a942ad0e023a06ffe4fc1528fb
+  GameSoundManager: fb510ecf471c9b3d329f6e9a63fbaca6a5db67c2
 
 PODFILE CHECKSUM: 2b0e678e541751b2c381c671b00998da6636662a
 

@@ -1,9 +1,9 @@
 {
   "name": "GameSoundManager",
   "version": "0.1.0",
-  "summary": "A short description of GameSoundManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/GameSoundManager",
+  "summary": "A wrapper to manipulate sounds.",
+  "description": "A wrapper to manipulate sounds and background tracks in your game.",
+  "homepage": "https://github.com/Morbix/GameSoundManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "Henrique Morbin": "morbin_@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/GameSoundManager.git",
+    "git": "https://github.com/Morbix/GameSoundManager.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/Morbin_",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "GameSoundManager/Classes/**/*"
+  "source_files": "GameSoundManager/Classes/**/*",
+  "frameworks": "AVFoundation"
 }

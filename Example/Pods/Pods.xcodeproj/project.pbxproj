@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		140D0A867153BBE7B18A84284C1AA4CA /* GameSoundManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B7CCE57BB28DD70880E6382E1D39D9 /* GameSoundManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DAC30C81D503CDF008FAB60 /* GameSoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC30C71D503CDF008FAB60 /* GameSoundManager.swift */; };
+		42CCF1BBCF03D1DE65BF7834A90E05D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
 		4C8187C83897330740E22FD2FF4CA0CE /* Pods-GameSoundManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5F288B6194D1E15B7E310DA2E6D97C /* Pods-GameSoundManager_Tests-dummy.m */; };
-		4D8178EC6005B9B0963003699F982885 /* GameSoundManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6496CC40C54276AD248935940B05B172 /* GameSoundManager-dummy.m */; };
+		50B1F79B1002D046485696E65CA278F5 /* GameSoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B8E0FCF88A3E9E732F2AC7A9B95D6F /* GameSoundManager.swift */; };
 		67B22117AC1D069F402AC587A1A15CF6 /* Pods-GameSoundManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B491E5491D9B6E2438CB7693CBB74F /* Pods-GameSoundManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC22E11D2740E6226D78D835EC2B4B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		CF57AD1DD626159FDF68391833309F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9962BE574D240312A477FC43C9CEAC8D /* GameSoundManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6496CC40C54276AD248935940B05B172 /* GameSoundManager-dummy.m */; };
+		C5841BF4469EEFEB129689B1CA2E65E9 /* GameSoundManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B7CCE57BB28DD70880E6382E1D39D9 /* GameSoundManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC22E11D2740E6226D78D835EC2B4B27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
+		CF57AD1DD626159FDF68391833309F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */; };
 		D5E179A5F0AADDB25CF289C00E9105D2 /* Pods-GameSoundManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6183262B8EA1064780FED1B3F73B880B /* Pods-GameSoundManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0B8CDD076694D80D19DDC2BF18A49B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E5F2CEAF652212E7421196C0E323C42F /* Pods-GameSoundManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 296AFD341D10E12DDBB3810290B17F41 /* Pods-GameSoundManager_Example-dummy.m */; };
+		FBE7B000F4A279145A0605C17B75658D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 32F33D7AC3F230D9297CFAE64853D13D;
+			remoteGlobalIDString = 3C3D3E8232C6EDE6BBD6010EB2B10355;
 			remoteInfo = GameSoundManager;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,9 +35,10 @@
 		11A84E8C61102CD6165C5367CF8A3A17 /* Pods-GameSoundManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameSoundManager_Example-resources.sh"; sourceTree = "<group>"; };
 		135EFE0146D66849793172FBF95A934A /* Pods-GameSoundManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameSoundManager_Example.modulemap"; sourceTree = "<group>"; };
 		16FB383028ADAD6906D4EB3891F1B648 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B8E0FCF88A3E9E732F2AC7A9B95D6F /* GameSoundManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameSoundManager.swift; sourceTree = "<group>"; };
 		25C1628A121745A49C86DFD486E79E8A /* Pods-GameSoundManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameSoundManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		296AFD341D10E12DDBB3810290B17F41 /* Pods-GameSoundManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameSoundManager_Example-dummy.m"; sourceTree = "<group>"; };
-		2DAC30C71D503CDF008FAB60 /* GameSoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSoundManager.swift; sourceTree = "<group>"; };
 		39B7CCE57BB28DD70880E6382E1D39D9 /* GameSoundManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GameSoundManager-umbrella.h"; sourceTree = "<group>"; };
 		4875A15CB789786DE0629722002D2D32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50C4DA129607BE73FEE6447EBE26B422 /* GameSoundManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GameSoundManager.modulemap; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		8B22146059F784EBF9FA1FF57B7A6717 /* Pods_GameSoundManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameSoundManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E52EC16F9B65A96F57AE3E27F1B5AFE /* GameSoundManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameSoundManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		97AE181434B512354247EEE89FFC9753 /* GameSoundManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GameSoundManager-prefix.pch"; sourceTree = "<group>"; };
 		9B1FD4F3054D2061B2C076AB80779A10 /* Pods_GameSoundManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameSoundManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5D301B32865CE387FCAC7644FB3848 /* Pods-GameSoundManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameSoundManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		B000FF0B70BBF3967DB99995F9A21933 /* Pods-GameSoundManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GameSoundManager_Tests.modulemap"; sourceTree = "<group>"; };
 		B47CCE7D83C098F2CFA7766562E2EE79 /* Pods-GameSoundManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameSoundManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7F789A0D4BECBC5431EA063A57814FF /* Pods-GameSoundManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameSoundManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF4C161633C201C84A2CBE235A2CB844 /* Pods-GameSoundManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameSoundManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E9AC0451A4568820269EACDA7391B0D1 /* Pods-GameSoundManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameSoundManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8B491E5491D9B6E2438CB7693CBB74F /* Pods-GameSoundManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameSoundManager_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -65,14 +67,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06ED30DD5182ABCEDC2E2F5DB72FE397 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0B8CDD076694D80D19DDC2BF18A49B4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0999E4AE207C45EE0D541A92508AAD52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +80,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC22E11D2740E6226D78D835EC2B4B27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9744D8E66658EC41836C2B4E6ACC91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE7B000F4A279145A0605C17B75658D /* AVFoundation.framework in Frameworks */,
+				42CCF1BBCF03D1DE65BF7834A90E05D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +123,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				A40AF8D79D4382828A0EEAD80AB26358 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		573D714B535D876D8B5E2C4B4D2FBD9B /* Pods-GameSoundManager_Example */ = {
@@ -182,7 +185,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6E0E569B2466F0BBCA54775D2326D511 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				3CAA9493FD2357EFBD0940507DB0315A /* Products */,
 				733610811169AEBF8EAFCB6D11ECC95A /* Targets Support Files */,
 			);
@@ -198,26 +201,27 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A40AF8D79D4382828A0EEAD80AB26358 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				283836EF5A0AA5CDF757AD35B494F1FA /* AVFoundation.framework */,
+				96A99E1ED6492F91E6807B16994861C5 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C4845A887079B3205BCDEC94A8904A89 /* GameSoundManager */ = {
 			isa = PBXGroup;
 			children = (
-				E6CFFD0B1DB4A29FDB3D86899EA6E65F /* Classes */,
+				D2BC1EA4C4E77750BFCFDDA76C6C3087 /* Classes */,
 			);
 			path = GameSoundManager;
 			sourceTree = "<group>";
 		};
-		E6CFFD0B1DB4A29FDB3D86899EA6E65F /* Classes */ = {
+		D2BC1EA4C4E77750BFCFDDA76C6C3087 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2DAC30C71D503CDF008FAB60 /* GameSoundManager.swift */,
+				17B8E0FCF88A3E9E732F2AC7A9B95D6F /* GameSoundManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -225,6 +229,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		091880397F0C04F189E6D7EAEB79510F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5841BF4469EEFEB129689B1CA2E65E9 /* GameSoundManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DE0310D7AD8CCFC598173735E017BB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,14 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B22117AC1D069F402AC587A1A15CF6 /* Pods-GameSoundManager_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E81BE4CC5D4E27F6B21FE6123DD22F82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				140D0A867153BBE7B18A84284C1AA4CA /* GameSoundManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,13 +273,13 @@
 			productReference = 8B22146059F784EBF9FA1FF57B7A6717 /* Pods_GameSoundManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		32F33D7AC3F230D9297CFAE64853D13D /* GameSoundManager */ = {
+		3C3D3E8232C6EDE6BBD6010EB2B10355 /* GameSoundManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37DF5BCC176075F685EDEE9348D4B8FF /* Build configuration list for PBXNativeTarget "GameSoundManager" */;
+			buildConfigurationList = 3548720F4D6C0D9B1D869676B5D4360A /* Build configuration list for PBXNativeTarget "GameSoundManager" */;
 			buildPhases = (
-				D38F4C6B342329658FC7C72C86C6ADC4 /* Sources */,
-				06ED30DD5182ABCEDC2E2F5DB72FE397 /* Frameworks */,
-				E81BE4CC5D4E27F6B21FE6123DD22F82 /* Headers */,
+				D91191CA225DFDDD92A2679B2A81BFBC /* Sources */,
+				E9744D8E66658EC41836C2B4E6ACC91F /* Frameworks */,
+				091880397F0C04F189E6D7EAEB79510F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32F33D7AC3F230D9297CFAE64853D13D /* GameSoundManager */,
+				3C3D3E8232C6EDE6BBD6010EB2B10355 /* GameSoundManager */,
 				E3A099C01F9050911038665A44B7B83E /* Pods-GameSoundManager_Example */,
 				2B056BC7F43FC548F53E016BA567D6E6 /* Pods-GameSoundManager_Tests */,
 			);
@@ -349,12 +353,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D38F4C6B342329658FC7C72C86C6ADC4 /* Sources */ = {
+		D91191CA225DFDDD92A2679B2A81BFBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8178EC6005B9B0963003699F982885 /* GameSoundManager-dummy.m in Sources */,
-				2DAC30C81D503CDF008FAB60 /* GameSoundManager.swift in Sources */,
+				9962BE574D240312A477FC43C9CEAC8D /* GameSoundManager-dummy.m in Sources */,
+				50B1F79B1002D046485696E65CA278F5 /* GameSoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +368,7 @@
 		73F756087E1ECE7B844B9DC3D73E1172 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GameSoundManager;
-			target = 32F33D7AC3F230D9297CFAE64853D13D /* GameSoundManager */;
+			target = 3C3D3E8232C6EDE6BBD6010EB2B10355 /* GameSoundManager */;
 			targetProxy = FBEC24043BA87A98FDFD92AD869AAF9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,13 +412,13 @@
 			};
 			name = Release;
 		};
-		4B366423E1ABF0D4577C40D3ABFE4329 /* Release */ = {
+		353B311F6076AD9ADF54FB74534198BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74A0EEFD5933D0AB446D028D2BFEEDAA /* GameSoundManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -427,15 +431,16 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GameSoundManager/GameSoundManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = GameSoundManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		68CB7050B7F5465EE43BA1EC6BAA5819 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -504,13 +509,13 @@
 			};
 			name = Debug;
 		};
-		948DE3CDC0694F478895270D6C41A09B /* Debug */ = {
+		9BDC2003F17F0DE95088DD4D8A10422A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74A0EEFD5933D0AB446D028D2BFEEDAA /* GameSoundManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -523,16 +528,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GameSoundManager/GameSoundManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = GameSoundManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		A1289C22AA6FD155A745CF7E34068D69 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -663,11 +667,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37DF5BCC176075F685EDEE9348D4B8FF /* Build configuration list for PBXNativeTarget "GameSoundManager" */ = {
+		3548720F4D6C0D9B1D869676B5D4360A /* Build configuration list for PBXNativeTarget "GameSoundManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				948DE3CDC0694F478895270D6C41A09B /* Debug */,
-				4B366423E1ABF0D4577C40D3ABFE4329 /* Release */,
+				353B311F6076AD9ADF54FB74534198BB /* Debug */,
+				9BDC2003F17F0DE95088DD4D8A10422A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

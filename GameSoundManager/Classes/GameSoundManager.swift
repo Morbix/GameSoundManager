@@ -9,8 +9,6 @@
 import UIKit
 import AVFoundation
 
-// TODO: Turn a pod: GameSoundManager
-
 public class GameSound : NSObject {
     
     public static let shared = GameSound()
