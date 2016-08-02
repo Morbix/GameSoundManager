@@ -144,7 +144,7 @@ private class Sound {
     func play() {
         if sounds.count > index {
             let player = sounds[index]
-            index++
+            index += 1
             player.play()
         }
         
