@@ -130,7 +130,7 @@ private class Sound {
         
         if let path = NSBundle.mainBundle().pathForResource(path, ofType: type) {
             
-            for _ in 1...5 {
+            for _ in 1...1 {
                 if let player = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path)) {
                     player.prepareToPlay()
                     player.volume = volume
