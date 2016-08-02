@@ -70,6 +70,16 @@ public class GameSound : NSObject {
         }
     }
     
+    public func stopSound(identifier: String) {
+        let soundsToPlay = sounds.filter { (sound) -> Bool in
+            return sound.identifier == identifier
+        }
+        
+        for sound in soundsToPlay {
+            sound.stop()
+        }
+    }
+    
     public func isVolumeOn() -> Bool {
         let defaults = NSUserDefaults()
         
@@ -129,14 +139,11 @@ private class Sound {
         self.originalVolume = volume
         
         if let path = NSBundle.mainBundle().pathForResource(path, ofType: type) {
-            
-            for _ in 1...1 {
-                if let player = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path)) {
-                    player.prepareToPlay()
-                    player.volume = volume
-                    player.rate = rate
-                    sounds.append(player)
-                }
+            if let player = try? AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: path)) {
+                player.prepareToPlay()
+                player.volume = volume
+                player.rate = rate
+                sounds.append(player)
             }
         }
     }
@@ -150,6 +157,12 @@ private class Sound {
         
         if index >= sounds.count {
             index = 0
+        }
+    }
+    
+    func stop() {
+        sounds.forEach {
+            $0.stop()
         }
     }
     
