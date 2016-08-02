@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GameSoundManager_Example' do
+  pod 'GameSoundManager', :path => '../'
+
+  target 'GameSoundManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
