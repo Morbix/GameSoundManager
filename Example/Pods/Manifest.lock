@@ -1,5 +1,5 @@
 PODS:
-  - GameSoundManager (0.1.0)
+  - GameSoundManager (1.0.2)
 
 DEPENDENCIES:
   - GameSoundManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GameSoundManager: fb510ecf471c9b3d329f6e9a63fbaca6a5db67c2
+  GameSoundManager: e0fab92d522de9cd7e5c7ea20cfe9fe77476703a
 
 PODFILE CHECKSUM: 2b0e678e541751b2c381c671b00998da6636662a
 

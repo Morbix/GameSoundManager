@@ -1,6 +1,6 @@
 {
   "name": "GameSoundManager",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "A wrapper to manipulate sounds.",
   "description": "A wrapper to manipulate sounds and background tracks in your game.",
   "homepage": "https://github.com/Morbix/GameSoundManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Morbix/GameSoundManager.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
   "social_media_url": "https://twitter.com/Morbin_",
   "platforms": {

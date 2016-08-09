@@ -50,8 +50,8 @@ public class GameSound : NSObject {
         }
     }
     
-    public func addSound(identifier: String, path: String, type: String, volume : Float = 1.0, rate: Float = 1.0) {
-        let sound = Sound(identifier: identifier, path: path, type: type, volume: volume, rate: rate)
+    public func addSound(identifier: String, path: String, type: String, volume : Float = 1.0, rate: Float = 1.0, loops: Int = 0) {
+        let sound = Sound(identifier: identifier, path: path, type: type, volume: volume, rate: rate, loops: loops)
         sound.setVolumeState(isVolumeOn())
         sounds.append(sound)
     }
@@ -134,7 +134,7 @@ private class Sound {
     private var sounds = [AVAudioPlayer]()
     private var originalVolume : Float = 1.0
     
-    init(identifier : String, path: String, type: String, volume : Float = 1.0, rate: Float = 1.0) {
+    init(identifier : String, path: String, type: String, volume : Float = 1.0, rate: Float = 1.0, loops: Int = 0) {
         self.identifier = identifier
         self.originalVolume = volume
         
@@ -143,6 +143,7 @@ private class Sound {
                 player.prepareToPlay()
                 player.volume = volume
                 player.rate = rate
+                player.numberOfLoops = loops
                 sounds.append(player)
             }
         }

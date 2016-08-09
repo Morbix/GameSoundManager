@@ -15,18 +15,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        GameSound.shared.addSound(identifier, path: "bubble", type: "wav")
+
+        GameSound.shared.addSound(identifier, path: "bubble", type: "wav", loops: -1)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    // MARK: Actions
+    
     @IBAction func hitMeTouched(sender: AnyObject) {
         GameSound.shared.playSound(identifier)
     }
+    
+    @IBAction func stopTouched(sender: AnyObject) {
+        GameSound.shared.stopSound(identifier)
+    }
+    
 }
 
